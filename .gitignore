@@ -1,0 +1,15 @@
+## Terraform ###
+
+#Local .terraform directories
+**/.terraform/*
+
+#.tfstate files
+*.tfstate
+*.tfstate.*
+
+#Chave SSH DEV
+*/env/Dev/ambienteDEV
+*.pub
+
+#Chave SSH PROD
+**/env/Prod/ambienteProducao

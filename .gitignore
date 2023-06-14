@@ -12,4 +12,4 @@
 *.pub
 
 #Chave SSH PROD
-**/env/Prod/ambienteProducao
+*/env/Prod/ambienteProducao

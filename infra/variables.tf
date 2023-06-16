@@ -16,6 +16,15 @@ variable "security_grupo" {
     type = string
 }
 
-variable "instancia_name" {
+# Grupo de autoScaling
+variable "maximoScaling" {
+    type = number
+}
+
+variable "minimoScaling" {
+    type = number
+}
+
+variable "nomeGrupoScaling" {
     type = string
 }

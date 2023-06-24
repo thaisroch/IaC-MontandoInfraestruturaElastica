@@ -8,6 +8,3 @@ module "ambienteDEV" {
   maximoScaling    = 1
   nomeGrupoScaling = "Instance Auto Scaling Developer"
 }
-output "IP" {
-  value = module.ambienteDEV.IP_publico
-}

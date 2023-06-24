@@ -6,9 +6,5 @@ module "ambienteProd" {
   security_grupo   = "security_grupo_Prod"
   maximoScaling    = 3
   minimoScaling    = 1
-  nomeGrupoScaling = "Instance Auto Scaling Production"
-}
-
-output "IP" {
-    value = module.ambienteProd.IP_publico
+  nomeGrupoScaling = "Production"
 }

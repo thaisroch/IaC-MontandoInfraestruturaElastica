@@ -16,7 +16,7 @@ provider "aws" {
 
 # Recurso do template de criação maquina #
 resource "aws_launch_template" "maquina" {
-  image_id             = "ami-03f65b8614a860c29"  #ami-ubuntu-20.04 - (64-bit (x86))
+  image_id             = "ami-066feb9d7da9ba4b3"  # ami-Amazon Linux | "ami-03f65b8614a860c29" #ami-ubuntu-20.04 - (64-bit (x86))
   instance_type        = var.instancia
   key_name             = var.chave
   security_group_names = [ var.security_grupo ]
